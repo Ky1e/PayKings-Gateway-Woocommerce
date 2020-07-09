@@ -1,0 +1,378 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce PayKings Gateway (Pro)\n"
+"POT-Creation-Date: 2019-08-16 14:50+0530\n"
+"PO-Revision-Date: 2019-08-16 14:50+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: gateway.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: gateway.php:58
+msgid "Settings"
+msgstr ""
+
+#: gateway.php:59
+msgid "Support"
+msgstr ""
+
+#: gateway.php:60 includes/class-wc-gateway-paykings.php:30
+msgid "Upgrade to Enterprise"
+msgstr ""
+
+#: gateway.php:133
+msgid "Unable to capture charge!"
+msgstr ""
+
+#: gateway.php:135 includes/class-wc-gateway-paykings.php:335
+#, php-format
+msgid "PayKings charge complete (Charge ID: %s)"
+msgstr ""
+
+#: gateway.php:171
+msgid "Unable to refund charge!"
+msgstr ""
+
+#: gateway.php:173
+#, php-format
+msgid "PayKings charge refunded (Charge ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:29
+#: includes/class-wc-paykings-privacy.php:11
+msgid "PayKings"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:30
+msgid ""
+"PayKings works by adding credit card fields on the checkout and then sending "
+"the details to the gateway for processing the transactions."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:30
+#, php-format
+msgid ""
+"Enterprise version is a full blown plugin that provides full support for "
+"processing subscriptions, pre-orders and refunds directly from your website. "
+"The credit card information is saved in your gateway merchant account and is "
+"reused to charge future orders, recurring payments or pre-orders at a later "
+"time. <a href=\"%s\" target=\"_blank\">Click here</a> to upgrade to "
+"Enterprise version or to know more about it."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:35
+msgid "Gateway Username"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:36
+msgid "Gateway Password"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:57
+#, php-format
+msgid ""
+"<br /><br /><strong>TEST MODE ENABLED</strong><br /> In test mode, you can "
+"use the card number 4111111111111111 with any CVC and a valid expiration "
+"date or check the documentation \"<a href=\"%s\">PayKings Direct Post API</a>"
+"\" for more card numbers."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:109
+#, php-format
+msgid "Gateway error: Please enter your Username <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:113
+#, php-format
+msgid "Gateway error: Please enter your Password <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:119
+msgid ""
+"Gateway error: Your Username and Password match. Please check and re-enter."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:125
+#, php-format
+msgid ""
+"PayKings is enabled, but a SSL certificate is not detected. Your checkout "
+"may not be secure! Please ensure your server has a valid <a href=\"%1$s\" "
+"target=\"_blank\">SSL certificate</a>."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:129
+#, php-format
+msgid "PayKings supports these currencies: %s"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:160
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:161
+msgid "Enable PayKings"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:167
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:169
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:170
+msgid "Credit card"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:173
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:175
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:176
+#, php-format
+msgid "Pay with your credit card via %s."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:179
+msgid "Test mode"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:180
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:182
+msgid ""
+"Place the payment gateway in test mode. This will display test information "
+"on the checkout page and enable processing in non HTTPS mode."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:188
+#: includes/class-wc-gateway-paykings.php:194
+#, php-format
+msgid "Get your %s from your %s account."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:198
+msgid "Capture"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:199
+msgid "Capture charge immediately"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:201
+msgid ""
+"Whether or not to immediately capture the charge. When unchecked, the charge "
+"issues an authorization and will need to be captured later."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:205
+msgid "Logging"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:206
+msgid "Log debug messages"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:208
+#, php-format
+msgid ""
+"Save debug messages to the WooCommerce System Status log file <code>%s</"
+"code>."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:212
+msgid "Gateway Debug"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:213
+msgid "Log gateway requests and response to the WooCommerce System Status log."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:215
+msgid ""
+"<strong>CAUTION! Enabling this option will write gateway requests including "
+"card numbers and CVV to the logs.</strong> Do not turn this on unless you "
+"have a problem processing credit cards. You must only ever enable it "
+"temporarily for troubleshooting or to send requested information to the "
+"plugin author. It must be disabled straight away after the issues are "
+"resolved and the plugin logs should be deleted."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:215
+#, php-format
+msgid " <a href=\"%s\">Click here</a> to check and delete the full log file."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:219
+msgid "Allowed Card types"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:222
+msgid "Select the card types you want to allow payments from."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:225
+msgid "Visa"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:226
+msgid "MasterCard"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:227
+msgid "Discover"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:228
+msgid "American Express"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:229
+msgid "Diners Club"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:230
+msgid "JCB"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:231
+msgid "Maestro"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:274
+msgid "Credit card details cannot be left incomplete."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:280
+#, php-format
+msgid ""
+"Card number being used is not one of supported types (%s) in plugin "
+"settings: %s"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:282
+msgid "Card Type Not Accepted"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:288
+#, php-format
+msgid "%s - Order %s"
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:349
+#, php-format
+msgid ""
+"PayKings charge authorized (Charge ID: %s). Process order to take payment, "
+"or cancel to remove the pre-authorization."
+msgstr ""
+
+#: includes/class-wc-gateway-paykings.php:371
+#: includes/class-wc-gateway-paykings.php:372
+#, php-format
+msgid "Gateway Error: %s"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:13
+msgid "WooCommerce PayKings Order Data"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:14
+msgid "WooCommerce PayKings Data"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:28
+msgid "Retain PayKings Data"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:29
+msgid "Retains any PayKings data such as PayKings charge ID."
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:32
+msgid "N/A"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:74
+#, php-format
+msgid ""
+"By using this extension, you may be storing personal data or sharing data "
+"with an external service. <a href=\"%s\" target=\"_blank\">Learn more about "
+"how this works, including what you may want to include in your privacy "
+"policy.</a>"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:97
+msgid "Orders"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:101
+msgid "PayKings payment id"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:163
+#, php-format
+msgid ""
+"Order ID %d is less than set retention days. Personal data retained. "
+"(PayKings)"
+msgstr ""
+
+#: includes/class-wc-paykings-privacy.php:173
+msgid "PayKings personal data erased."
+msgstr ""
+
+#: includes/paykings_sdk/lib/PayKings.php:201
+#, php-format
+msgid "Unrecognized response from the gateway: %s"
+msgstr ""
+
+#: includes/paykings_sdk/lib/PayKings.php:215
+msgid "Your card has been declined."
+msgstr ""
+
+#: includes/paykings_sdk/lib/PayKings.php:225
+msgid "Error connecting to the gateway"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce PayKings Gateway (Pro)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://pledgedplugins.com/products/paykings-payment-gateway-woocommerce/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A payment gateway for PayKings. A PayKings account and a server with cURL, "
+"SSL support, and a valid SSL certificate is required (for security reasons) "
+"for this gateway to function. Requires WC 3.0.0+"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pledged Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pledgedplugins.com"
+msgstr ""
