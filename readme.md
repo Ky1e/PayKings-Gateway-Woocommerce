@@ -1,5 +1,6 @@
 === PayKings Payment Gateway For WooCommerce (Pro) ===  
 Contributors: Pledged Plugins & PayKings
+
 Tags: woocommerce PayKings, PayKings, payment gateway, woocommerce, woocommerce payment gateway  
 Plugin URI: https://pledgedplugins.com/products/paykings-payment-gateway-woocommerce/  
 Requires at least: 4.0  
