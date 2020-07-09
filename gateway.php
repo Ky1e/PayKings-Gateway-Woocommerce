@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: WooCommerce PayKings Gateway (Pro)
+Plugin Name: PayKings Payment Gateway (Pro)
 Plugin URI: https://pledgedplugins.com/products/paykings-payment-gateway-woocommerce/
 Description: A payment gateway for PayKings. A PayKings account and a server with cURL, SSL support, and a valid SSL certificate is required (for security reasons) for this gateway to function. Requires WC 3.0.0+
 Version: 1.1.2
-Author: Pledged Plugins
-Author URI: https://pledgedplugins.com
+Author: Pledged Plugins & PayKings
+Author URI: https://paykings.com
 Text Domain: wc-paykings
 Domain Path: /languages
 WC requires at least: 3.0.0
