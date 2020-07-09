@@ -1,5 +1,5 @@
 === PayKings Payment Gateway For WooCommerce (Pro) ===  
-Contributors: Pledged Plugins  
+Contributors: Pledged Plugins, PayKings 
 Tags: woocommerce PayKings, PayKings, payment gateway, woocommerce, woocommerce payment gateway  
 Plugin URI: https://pledgedplugins.com/products/paykings-payment-gateway-woocommerce/  
 Requires at least: 4.0  
@@ -36,7 +36,7 @@ Easy steps to install the plugin:
 6. Enable the method by using the checkbox.
 7. Enter the PayKings account details (Username, Password)
 
-That's it! You are ready to accept credit cards with your PayKings payment gateway now connected to WooCommerce.
+That's it! You are ready to accept credit cards with your [PayKings payment gateway](https://www.paykings.com/) now connected to WooCommerce.
 
 `Is SSL Required to use this plugin?`  
 A valid SSL certificate is required to ensure your customer credit card details are safe and make your site PCI DSS compliant. This plugin does not store the customer credit card numbers or sensitive information on your website.  
